@@ -59,6 +59,10 @@ header .navbar nav {
 }
 header .navbar nav a {
   color: #ffffff;
+  transition: all 0.3s;
+}
+header .navbar nav a:hover {
+  color: #C0B7E8;
 }
 header .navbar .contact {
   display: flex;
@@ -78,11 +82,21 @@ header .navbar .contact button:nth-child(1) {
   border: 1px solid white;
   color: #ffffff;
   background-color: transparent;
+  transition: all 0.5s;
+}
+header .navbar .contact button:nth-child(1):hover {
+  background-color: #ffffff;
+  color: #211E2E;
 }
 header .navbar .contact button:nth-child(2) {
   border: 1px solid linear-gradient(to right, #8176AF 50%, #C0B7E8 100%);
   color: #000000;
   background: linear-gradient(to right, #8176AF 50%, #C0B7E8 100%);
+  transition: all 0.5s;
+}
+header .navbar .contact button:nth-child(2):hover {
+  background-color: radial-gradient(circle at center, #3A3456 50%, #211E2E 100%);
+  color: #C0B7E8;
 }
 header .hero-section {
   display: flex;
@@ -128,6 +142,11 @@ header .hero-section .about .more button {
   border: 1px solid linear-gradient(to right, #8176AF 50%, #C0B7E8 100%);
   color: #211E2E;
   background: linear-gradient(to right, #8176AF 50%, #C0B7E8 100%);
+  transition: all 0.5s;
+}
+header .hero-section .about .more button:hover {
+  background-color: radial-gradient(circle at center, #3A3456 50%, #211E2E 100%);
+  color: #C0B7E8;
 }
 
 .contact-add-section {
@@ -242,6 +261,11 @@ header .hero-section .about .more button {
   border: 1px solid linear-gradient(to right, #8176AF 50%, #C0B7E8 100%);
   color: #211E2E;
   background: linear-gradient(to right, #8176AF 50%, #C0B7E8 100%);
+  transition: all 0.5s;
+}
+.info-section .main .info button:hover {
+  background-color: radial-gradient(circle at center, #3A3456 50%, #211E2E 100%);
+  color: #C0B7E8;
 }
 
 .why-build .grid-items {
@@ -259,6 +283,10 @@ header .hero-section .about .more button {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  transition: all 0.5s;
+}
+.why-build .grid-items .item:hover {
+  transform: scale(1.02);
 }
 .why-build .grid-items .item img:nth-child(1) {
   border: 10px solid #211E2E;
@@ -434,6 +462,11 @@ header .hero-section .about .more button {
   color: #211E2E;
   background: linear-gradient(to right, #8176AF 50%, #C0B7E8 100%);
   margin: 50px auto 0;
+  transition: all 0.5s;
+}
+.form-wrap form button:hover {
+  background-color: radial-gradient(circle at center, #3A3456 50%, #211E2E 100%);
+  color: #C0B7E8;
 }
 
 footer {
